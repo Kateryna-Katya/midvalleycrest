@@ -70,3 +70,11 @@ text-align: left;
     text-align: left;
 }
 }
+/* About the Game */
+@media only screen and (min-width: 1440px) {
+ .about-text{
+    width: 854px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+}
