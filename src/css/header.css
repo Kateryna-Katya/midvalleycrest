@@ -124,7 +124,7 @@ font-family: "IBM Plex Sans", sans-serif;
     opacity: 1;
   }
 
-  .links:focus,
+  .navigation-item:focus,
   .navigation-item.active {
       opacity: 1;
 border-bottom: 1px solid #be3915;
