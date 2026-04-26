@@ -1,0 +1,72 @@
+.home-section{
+    background-image: url("/img/home/mob.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: top center;
+    height: 692px;
+}
+.home-wrapper{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.home-text{
+    font-family: "Teko", sans-serif;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 1;
+        text-align: center;
+        color: #fafafa;
+        text-shadow:
+                /* обводка */
+                1px 0 #4f5056,
+                -1px 0 #4f5056,
+                0 1px #4f5056,
+                0 -1px #4f5056,
+                1px 1px #4f5056,
+                -1px -1px #4f5056,
+                1px -1px #4f5056,
+                -1px 1px #4f5056;
+}
+.home-title{
+    font-family: "Teko", sans-serif;
+        font-weight: 700;
+        font-size: 43px;
+        line-height: 1.1;
+        text-align: right;
+        color: #fafafa;
+text-shadow:
+        /* обводка */
+        1px 0 #4f5056,
+        -1px 0 #4f5056,
+        0 1px #4f5056,
+        0 -1px #4f5056,
+        1px 1px #4f5056,
+        -1px -1px #4f5056,
+        1px -1px #4f5056,
+        -1px 1px #4f5056,
+        2px 4px 6px rgba(0, 0, 0, 0.3);
+}
+@media only screen and (min-width: 1440px) {
+.home-section {
+        background-image: url("/img/home/desk.png");
+height: 720px;
+}
+.home-wrapper{
+    width: 514px;
+    margin-left: auto;
+margin-right: 0;
+margin-top: 100px;
+gap: 120px;
+}
+.home-text{
+font-size: 32px;
+text-align: left;
+}
+.home-title{
+    font-size: 64px;
+    text-align: left;
+}
+}
