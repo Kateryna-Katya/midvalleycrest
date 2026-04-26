@@ -168,3 +168,129 @@ order: 2;
     order: 6;
  }
 }
+/* Level Design */
+.level-section{
+    background: #dce8eb;
+    background-image: url("/img/level/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 317px;
+height: 726px;
+}
+.level-wrapper{
+    width: 293px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (min-width: 1440px) {
+.level-section {
+        background-image: url("/img/level/desk.png");
+        background-size: 100% 570px;
+height: 946px;
+}
+.level-wrapper{
+    width: 100%;
+}
+}
+/* Visual Style */
+.visual-swiper{
+    margin-top: 32px;
+}
+.visual-swiper .swiper-wrapper{
+    padding-bottom: 6px;
+}
+.visual-swiper .swiper-slide{
+    border-radius: 2px;
+        padding: 32px 16px;
+        width: 273px;
+        height: 165px;
+box-shadow: 4px 4px 1px 0 #b9a790;
+    background: #d7c5ae;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.visual-title-item{
+    font-family: "Teko", sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.1;
+        text-align: center;
+        color: #be3915;
+}
+@media only screen and (min-width: 1440px) {
+    .mob{
+        display: none;
+    }
+    .visual-swiper{
+        margin-top: 64px;
+    }
+.visual-swiper .swiper-wrapper{
+    gap: 32px;
+    justify-content: center;
+}
+.visual-swiper .swiper-slide{
+    border-radius: 2px;
+        padding: 32px 16px;
+        width: 200px;
+        height: 228px;
+}
+.visual-title-item{
+font-size: 24px;
+}
+}
+/* Features */
+.features-section{
+background: #dce8eb;
+    background-image: url("/img/features/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 270px;
+    height: 970px;
+}
+.features-wrapper{
+    width: 273px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.features-list{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+.features-item{
+    border-bottom: 1px solid #be3915;
+        border-radius: 2px;
+        padding: 8px;
+        width: 223px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+}
+.features-text-item{
+    width: 167px;
+}
+@media only screen and (min-width: 1440px) {
+.features-section {
+        background-image: url("/img/features/desk.png");
+        background-size: 100% 500px;
+height: 1052px;
+}
+.features-wrapper{
+    width: 100%;
+}
+.features-list{
+    margin-top: 64px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+}
+.features-item{
+    width: 153px;
+    height: auto;
+}
+}
