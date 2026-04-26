@@ -78,3 +78,26 @@ text-align: left;
     margin-right: auto;
  }
 }
+/* Gameplay Loop */
+.gameplay-section{
+    background: #dce8eb;
+    background-image: url("/img/gameplay/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 216px;
+    height: 568px;
+}
+.desk{
+    display: none;
+}
+@media only screen and (min-width: 1440px) {
+.gameplay-section {
+        background-image: url("/img/gameplay/desk.png");
+        background-repeat: no-repeat;
+        background-size: 100% 638px;
+    height: 1014px;
+    }
+.desk{
+    display: block;
+}
+}
