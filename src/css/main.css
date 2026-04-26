@@ -294,3 +294,76 @@ height: 1052px;
     height: auto;
 }
 }
+/* Gallery */
+.btn {
+    display: none;
+}
+@media only screen and (min-width: 1440px) {
+    .gallery-container {
+        position: relative;
+    }
+
+    .btn {
+        display: block;
+        border-radius: 100px;
+        border: none;
+        background-color: #be3915;
+        width: 64px;
+        height: 64px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 60%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+
+    .gallery-swiper {
+        width: 1030px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .gallery-next {
+        right: 8%;
+        z-index: 2;
+    }
+
+    .gallery-prev {
+        left: 8%;
+        z-index: 2;
+    }
+}
+/* Contact */
+.contact-section{
+    background: #dce8eb;
+    background-image: url("/img/contact/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 322px;
+height: 541px;
+}
+.contact-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.contact-link{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+@media only screen and (min-width: 1440px) {
+    .contact-section {
+        background-image: url("/img/contact/desk.png");
+        background-size: 100% 513px;
+        height: 697px;
+}
+.contact-wrapper{
+    flex-direction: row;
+    justify-content: center;
+}
+}
